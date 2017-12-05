@@ -1,0 +1,23 @@
+{
+  "name": "sfnode-bot",
+  "version": "1.0.0",
+  "description": "SFNode Chatbot - A bot that can answer basic question about chatbot",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "chatbot",
+    "nodejs",
+    "sfnode"
+  ],
+  "author": "Zahidul Islam <zahidsharp@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "3.13.0",
+    "dotenv": "4.0.0",
+    "express": "4.16.2",
+    "koa": "2.4.1",
+    "koa-router": "7.3.0"
+  }
+}
